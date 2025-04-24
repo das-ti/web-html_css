@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="image/doug-logo.jpg">
+        <title>Sobre mim</title>
+    </head>
+    <body>
+        <header id="intro">
+            <h2>Bem-vindo(a) a MyPage.dev</h2>
+        </header>
+        <nav id="menu">
+            <a href="#about">Sobre Mim</a> | <a href="#hobbies">Hobbies</a> | <a href="#skills">Habilidades</a> | <a
+                href="#contact">Contato</a> | <a href="#social-media">Redes Sociais</a>
+        </nav>
+        <hr>
+        <main>
+            <section id="about">
+                <img src="image/doug-img.png" alt="caricatura do Douglas com fundo branco e azul" width="25%">
+                <h1>Olá, sou o Douglas!</h1>
+                <p>Seja bem-vindo a minha página pessoal.</p>
+                <p>Espero que possa conhecer um pouco por aqui.</p>
+                <h2>Sobre mim</h2>
+                <p>[<a href="#menu">menu</a>]</p>
+                <p>Meu nome é <strong>Douglas Alves Silva</strong>, tenho 40 anos e sou Atendente Administrativo - SAC.
+                    <br>Sou <strong>Técnico em Informática</strong> formado pelo <b>SENAC - Santos</b>, desde então procuro
+                    me atualizar nas tecnologias de <em>front-end</em> e <em>back-end</em>, fazendo cursos livres e
+                    bootcamps. Atualmente no primeiro semestre de <strong>DSM - Desenvolvimento de Software Multiplataforma
+                        da
+                        FATEC-PG</strong>, com o objetivo de me aprofundar na área e melhorar minhas habilidades.
+                </p>
+                <p>Nas horas vagas gosto de ler livros e artigos, escutar música, assistir filmes e podcasts. Sou apaixonado
+                    por esportes a motor, sendo meu preferido a <b>Formula 1</b>.
+                    <br><u>Amo estar com minha família</u>, sair para almoçar fora, ir a praia e me divertir com eles.
+                    <i>Esporadicamente faço alguma atividade física</i>.
+                </p>
+                <hr>
+            </section>
+            <section>
+                <h2 id="hobbies">Hobbies e Interesses</h2>
+                <p>[<a href="#menu">menu</a>] [<a href="#about">sobre mim</a>]</p>
+                <ul>
+                    <li>Livros</li>
+                    <ul>
+                        <li>Ficção Cientifica</li>
+                        <li>História</li>
+                        <li>Biografias</li>
+                    </ul>
+                    <li><mark>Música</mark></li>
+                    <ul>
+                        <li>Pop</li>
+                        <li>Rock</li>
+                        <li>Clássica</li>
+                    </ul>
+                    <li>Vídeos</li>
+                    <ul>
+                        <li>Podcast</li>
+                        <li>Documentários</li>
+                        <li>Filmes</li>
+                    </ul>
+                    <li>Esportes</li>
+                    <ul>
+                        <li>Formula 1</li>
+                        <li>Futebol</li>
+                        <li>Artes marciais</li>
+                    </ul>
+                </ul>
+                <hr>
+            </section>
+            <section id="skills">
+                <h2>Minhas Habilidades</h2>
+                <p>[<a href="#menu">menu</a>] [<a href="#hobbies">hobbies</a>]</p>
+                <ol>
+                    <li>Front-end</li>
+                    <ol type="a">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ol>
+                    <li>Back-end</li>
+                    <ol type="a">
+                        <li>C#</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ol>
+                </ol>
+                <table border="3" width="500" cellspacing="2" align=center"
+                    summary="Tabela de Habilidades especificando habilidade, conhecimento e nível.">
+                    <thead>
+                        <tr>
+                            <th colspan="3">Tabela de Habilidades</th>
+                        </tr>
+                        <tr>
+                            <th title="Habilidades">Habilidade</th>
+                            <th title="Conhecimentos">Conhecimento</th>
+                            <th title="Nível">Nível</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3">Front-end</td>
+                            <td>HTML</td>
+                            <td rowspan="2">Intermediário</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td rowspan="4">Básico</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">Back-end</td>
+                            <td>C#</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <section id="contact">
+                <h2>Contato</h2>
+                <p>[<a href="#menu">menu</a>] [<a href="#skills">Habilidades</a>]</p>
+                <fieldset>
+                    <form action="">
+                        <fieldset>
+                            <legend>Dados Cadastrais</legend>
+                            <label for="">Nome:</label>
+                            <input type="text" name="nome" placeholder="digite seu nome" size="50" min="3" max="40"
+                                autofocus required>
+                            <label for="">E-mail:</label>
+                            <input type="email" name="email" placeholder="email@email.com" size="25" required>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Gênero</legend>
+                            <input type="radio" id="fem" name="gen">
+                            <label for="fem">Feminino</label>
+                            <input type="radio" id="mas" name="gen">
+                            <label for="mas">Masculino</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Interesses</legend>
+                            <input type="checkbox" id="book" name="book">
+                            <label for="book">Livros</label>
+                            <input type="checkbox" id="music" name="music">
+                            <label for="music">Música</label>
+                            <input type="checkbox" id="video" name="video">
+                            <label for="video">Vídeos</label>
+                            <input type="checkbox" id="sport" name="sport">
+                            <label for="sport">Esportes</label>
+                            <input type="checkbox" id="others" name="others">
+                            <label for="others">Outros</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Área de Interesses</legend>
+                            <select name="" id="interests">
+                                <option value="" selected>Selecione uma habilidade</option>
+                                <option value="Front-end">Front-end</option>
+                                <option value="Back-end">Back-end</option>
+                                <option value="Outras">Outras do seu interesse</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <legend for="">Mensagem</legend>
+                            <textarea type="textarea" cols="85" rows="15" placeholder="Digite aqui sua mensagem"></textarea>
+                    </form>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+                <hr>
+                <section id="social-media">
+                    <h2>Redes Sociais</h2>
+                    <p>[<a href="#menu">menu</a>] [<a href="#contact">Contato</a>]</p>
+                    <a href="https://www.linkedin.com/in/das-ti/" target="_blank"><img
+                            src="https://media.licdn.com/dms/image/v2/D5610AQE2V1GGUoDmYQ/image-pad_100_100/image-pad_100_100/0/1734518998558?e=1741500000&v=beta&t=7mLwS3QU-KXqxSbcnCsDfHs3ynLXEW2FBfecnYYuvyo"
+                            alt="logo do LinkedIn" width="50px"></a>
+                    <a href="https://github.com/das-ti" target="_blank"><img
+                            src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="logo do GitHub"
+                            width="55px"></a>
+                </section>
+            </section>
+        </main>
+        <section>
+            <p>
+                <a href="#about">Sobre Mim</a> | <a href="#hobbies">Hobbies</a> | <a href="#contact">Contato</a> | <a
+                    href="#skills">Habilidades</a> | <a href="#social-media">Redes Sociais</a>
+            </p>
+        </section>
+    </body>
+</html>
